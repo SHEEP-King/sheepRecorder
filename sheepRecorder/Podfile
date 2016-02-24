@@ -1,0 +1,33 @@
+
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+target 'sheepRecorder' do
+
+#Github 排名第一的网络操作框架,底层使用NSURLSession + NSOPeration(多线程)
+pod 'AFNetworking'
+
+#对系统原生的AutoLayout的NSLayoutConstraints类的封装,优雅的链式语法,Github排名第三
+pod 'Masonry'
+
+#为滚动控件(UIScrollView,UITableView,UICollectionView)添加头部和脚步刷新UI
+pod 'MJRefresh'
+
+#对系统的Sqlite的疯转,使用SQL语句操作数据库
+pod 'FMDB'
+
+#侧边栏--参考QQ侧边栏
+pod 'RESideMenu'
+
+#屏幕中间显示 -- 小菊花/提示框
+pod 'MBProgressHUD'
+
+#实现IOS系统邮件的Cell左滑显示多个按钮的模式
+pod 'SWTableViewCell'
+
+
+
+end
+
