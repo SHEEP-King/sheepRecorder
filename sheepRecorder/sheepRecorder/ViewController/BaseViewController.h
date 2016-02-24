@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UIView+MRRound.h"
+#import "UIView+EZ.h"
 
 @interface BaseViewController : UIViewController
 

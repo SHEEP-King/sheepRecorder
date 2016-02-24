@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (MRRound)
+@interface UIView (EZ)
 
 - (void)setRoundLayer;
 - (void)setRoundLayer:(CGFloat)radius;
+
+- (CAEmitterLayer *)fireWorkLayer;
+- (CAEmitterLayer *)snowLayer;
+
+- (void)startBackgroundAnimation : (CALayer *)layer;
+- (void)stopBackgroundAnimation : (CALayer *)layer;
 
 @end

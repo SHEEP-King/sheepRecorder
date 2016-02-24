@@ -16,11 +16,31 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stars" translatesAutoresizingMaskIntoConstraints="NO" id="oUw-TR-4ik">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="oUw-TR-4ik" secondAttribute="trailing" id="1AE-oK-dfg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oUw-TR-4ik" secondAttribute="bottom" id="FJG-zb-R6v"/>
+                            <constraint firstItem="oUw-TR-4ik" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Gle-Ee-YlY"/>
+                            <constraint firstItem="oUw-TR-4ik" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ZUm-zm-Sz9"/>
+                            <constraint firstItem="oUw-TR-4ik" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="rB0-OF-WIj"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="rB0-OF-WIj"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="Stars" width="320" height="568"/>
+    </resources>
 </document>
